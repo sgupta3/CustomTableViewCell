@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D85D5DC71B2FB85B00D557F8 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = D85D5DC61B2FB85B00D557F8 /* screenshot.png */; };
 		D8E29CBA1B2F97C20020A514 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E29CB91B2F97C20020A514 /* main.m */; };
 		D8E29CBD1B2F97C20020A514 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E29CBC1B2F97C20020A514 /* AppDelegate.m */; };
 		D8E29CC01B2F97C20020A514 /* CustomTableViewCell.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8E29CBE1B2F97C20020A514 /* CustomTableViewCell.xcdatamodeld */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D85D5DC61B2FB85B00D557F8 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		D8E29CB41B2F97C20020A514 /* CustomTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E29CB81B2F97C20020A514 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8E29CB91B2F97C20020A514 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				D8E29CC71B2F97C20020A514 /* Images.xcassets */,
 				D8E29CC91B2F97C20020A514 /* LaunchScreen.xib */,
 				D8E29CBE1B2F97C20020A514 /* CustomTableViewCell.xcdatamodeld */,
+				D85D5DC61B2FB85B00D557F8 /* screenshot.png */,
 				D8E29CB71B2F97C20020A514 /* Supporting Files */,
 			);
 			path = CustomTableViewCell;
@@ -222,6 +225,7 @@
 				D8E29CCB1B2F97C20020A514 /* LaunchScreen.xib in Resources */,
 				D8E29CE21B2F98110020A514 /* SimpleTableCell.xib in Resources */,
 				D8E29CC81B2F97C20020A514 /* Images.xcassets in Resources */,
+				D85D5DC71B2FB85B00D557F8 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +442,7 @@
 				D8E29CDC1B2F97C20020A514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8E29CDD1B2F97C20020A514 /* Build configuration list for PBXNativeTarget "CustomTableViewCellTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +451,7 @@
 				D8E29CDF1B2F97C20020A514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
